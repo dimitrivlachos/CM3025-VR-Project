@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d09bf646b497744a06517b7d9c9ac6, type: 3}
+  m_Name: Adventurous Slow Guitar
+  m_EditorClassIdentifier: 
+  fragmentList:
+  - tag: 00_Melody_Guitar_01
+    id: 0
+    clip_fragment: {fileID: 8300000, guid: 10c0d52abd8c38943b36359758443b4d, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294822544
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 01_Melody_Guitar_02
+    id: 1
+    clip_fragment: {fileID: 8300000, guid: 94272eb55aadf1d4db1d08cacffdfe88, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4290641802
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 02_Melody_Guitar_03
+    id: 2
+    clip_fragment: {fileID: 8300000, guid: 76a15d06c21c878478baf02341e34636, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288936189
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 03_Melody_Guitar_04
+    id: 3
+    clip_fragment: {fileID: 8300000, guid: d60226050c677df4c9475b38dea3ac6d, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288937406
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 04_Melody_Guitar_05
+    id: 4
+    clip_fragment: {fileID: 8300000, guid: 5ef16b0e82316f044be7132f70cd83ec, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4282777468
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 05_Melody_Guitar_06
+    id: 5
+    clip_fragment: {fileID: 8300000, guid: 2a6aa21e18c6da9439b5031416746a2d, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289134405
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 06_Melody_Guitar_07
+    id: 6
+    clip_fragment: {fileID: 8300000, guid: 741c49a46a3f65342a4ef84be8e9028f, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289134405
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 07_Melody_Guitar_08
+    id: 7
+    clip_fragment: {fileID: 8300000, guid: cf69aad8e571f4b44881922c2eed1e7a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945861
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 08_Melody_Guitar_09
+    id: 8
+    clip_fragment: {fileID: 8300000, guid: 3dcc8d6f19861c2409d6ff42a829b9e8, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945861
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 09_Melody_Guitar_10
+    id: 9
+    clip_fragment: {fileID: 8300000, guid: 3dcc8d6f19861c2409d6ff42a829b9e8, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294919511
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 10_Melody_Guitar_11
+    id: 10
+    clip_fragment: {fileID: 8300000, guid: 5f9d2af989785a443a4c9964fc310ab7, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4287035636
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 11_Melody_Guitar_12
+    id: 11
+    clip_fragment: {fileID: 8300000, guid: b15603f8c3d8650418cb3e7a21641a23, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4284140287
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 24_Harmony_Dm_Slow
+    id: 24
+    clip_fragment: {fileID: 8300000, guid: 86f8d0eaf21c3fb4a93cab64901bba3e, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945353
+    row_channel: 1
+    isChord: 1
+    isSilence: 0
+    isBaseChord: 1
+    Sockets: 01000000010000000100000001000000
+  - tag: 25_Harmony_F_Slow
+    id: 25
+    clip_fragment: {fileID: 8300000, guid: 79a44d8a7e3e42647a57559070c1b27b, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4280928837
+    row_channel: 1
+    isChord: 1
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000200000001000000
+  - tag: 26_Harmony_G_Slow
+    id: 26
+    clip_fragment: {fileID: 8300000, guid: 7e55bfbc08bd0024f8e20beadda6f330, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4286989748
+    row_channel: 1
+    isChord: 1
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000300000001000000
+  - tag: 30_Bass_Pizz_Dm_01
+    id: 30
+    clip_fragment: {fileID: 8300000, guid: 26092e93ba942d246b287bd5de62798a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294934784
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 31_Bass_Pizz_Dm_02
+    id: 31
+    clip_fragment: {fileID: 8300000, guid: 220ed6b58225d414a84e37f6e4b180db, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289743362
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 32_Bass_Pizz_Dm_03
+    id: 32
+    clip_fragment: {fileID: 8300000, guid: 0b14ce15bd6a6ef488102dea90f46134, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4287062272
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 34_Bass_Pizz_F_1
+    id: 34
+    clip_fragment: {fileID: 8300000, guid: 7bcfb9629c351c445b5fbbc18c86762a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4278558976
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 02000000010000000100000001000000
+  - tag: 35_Bass_Pizz_F_2
+    id: 35
+    clip_fragment: {fileID: 8300000, guid: b33fba317cb43f94c8e5d9714a5147ae, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4279407360
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 02000000010000000100000001000000
+  - tag: 36_Bass_Pizz_F_3
+    id: 36
+    clip_fragment: {fileID: 8300000, guid: b10e837333279d647ae107f5018df5b8, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4283343190
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 02000000010000000100000001000000
+  - tag: 37_Bass_Pizz_G_1
+    id: 37
+    clip_fragment: {fileID: 8300000, guid: dbca0aa580676964c9c2b857fa38438d, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289079242
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 03000000010000000100000001000000
+  - tag: 38_Bass_Pizz_G_2
+    id: 38
+    clip_fragment: {fileID: 8300000, guid: bf4f3437772279c43906f4e97d3b04eb, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288554152
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 03000000010000000100000001000000
+  - tag: 39_Bass_Pizz_G_3
+    id: 39
+    clip_fragment: {fileID: 8300000, guid: 612e8a8f653a2bd479580d0df9d1211a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4285857953
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 03000000010000000100000001000000
+  - tag: Silence
+    id: 40
+    clip_fragment: {fileID: 8300000, guid: 8235bc1895c73ec47a16ff78a452f3a3, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4279894271
+    row_channel: 0
+    isChord: 0
+    isSilence: 1
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
