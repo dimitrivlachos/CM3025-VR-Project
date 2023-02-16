@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d09bf646b497744a06517b7d9c9ac6, type: 3}
+  m_Name: Sad Piano
+  m_EditorClassIdentifier: 
+  fragmentList:
+  - tag: 09_Melody_Flute_10
+    id: 9
+    clip_fragment: {fileID: 8300000, guid: 536644c0bbc6c0545a5ec0e52b3ee83b, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294919511
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 10_Melody_Flute_11
+    id: 10
+    clip_fragment: {fileID: 8300000, guid: b3aa43177c276344abed611ce80bf9fc, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4287035636
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 11_Melody_Flute_12
+    id: 11
+    clip_fragment: {fileID: 8300000, guid: d94caabb9ac4073408dd1c4a6e1f2f98, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4284140287
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 12_Melody_Piano_01
+    id: 12
+    clip_fragment: {fileID: 8300000, guid: 459c9d0a4a563324296e4777a00370ba, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294967295
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 13_Melody_Piano_02
+    id: 13
+    clip_fragment: {fileID: 8300000, guid: e2b7c0f13bbdb664a99bbb0510e889e2, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294967295
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 14_Melody_Piano_03
+    id: 14
+    clip_fragment: {fileID: 8300000, guid: cbd70830755c9ce499f36dfa754bbb94, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289835519
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 15_Melody_Piano_04
+    id: 15
+    clip_fragment: {fileID: 8300000, guid: 07154c07d8b5cf9459387ef97993d865, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4281677135
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 16_Melody_Piano_05
+    id: 16
+    clip_fragment: {fileID: 8300000, guid: d8185b4d51f17d84d8b5d040142b02f9, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4290986198
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 17_Melody_Piano_06
+    id: 17
+    clip_fragment: {fileID: 8300000, guid: a093d7d8ed956624e8e2e84028521a87, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4282439270
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 18_Melody_Piano_07
+    id: 18
+    clip_fragment: {fileID: 8300000, guid: c245454cff94f6f48bc03d0d3389197f, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4282404822
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 19_Melody_Piano_08
+    id: 19
+    clip_fragment: {fileID: 8300000, guid: 2008ef4944d7d064080c67e9b0db08bd, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294043760
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 20_Melody_Piano_09
+    id: 20
+    clip_fragment: {fileID: 8300000, guid: 94f3c817dd1180348900623a8f280f91, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4278771967
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 21_Melody_Piano_10
+    id: 21
+    clip_fragment: {fileID: 8300000, guid: e9269a245b9f8f34ab058642203a7962, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4278745087
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 22_Melody_Piano_11
+    id: 22
+    clip_fragment: {fileID: 8300000, guid: 9c3411ce6c858934a93e4d90016cc59e, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294905608
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 23_Melody_Piano_12
+    id: 23
+    clip_fragment: {fileID: 8300000, guid: 4668ed883f8b33d488a1b757b4be389d, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288678143
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 24_Harmony_Ab_Slow
+    id: 24
+    clip_fragment: {fileID: 8300000, guid: 60ab05720f28fcd4291ab66af73a1c55, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945353
+    row_channel: 1
+    isChord: 1
+    isSilence: 0
+    isBaseChord: 1
+    Sockets: 01000000010000000100000001000000
+  - tag: 27_Bass_Long_Ab
+    id: 27
+    clip_fragment: {fileID: 8300000, guid: f710785971bfb1f4ab77b91986f50103, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294901764
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: Silence
+    id: 40
+    clip_fragment: {fileID: 8300000, guid: 8235bc1895c73ec47a16ff78a452f3a3, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4279894271
+    row_channel: 0
+    isChord: 0
+    isSilence: 1
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000

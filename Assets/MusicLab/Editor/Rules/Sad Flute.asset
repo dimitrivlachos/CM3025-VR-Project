@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d09bf646b497744a06517b7d9c9ac6, type: 3}
+  m_Name: Sad Flute
+  m_EditorClassIdentifier: 
+  fragmentList:
+  - tag: 00_Melody_Flute_01
+    id: 0
+    clip_fragment: {fileID: 8300000, guid: 273c428bed43c7a45a1072f9ec972cd2, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294822544
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 01_Melody_Flute_02
+    id: 1
+    clip_fragment: {fileID: 8300000, guid: 1947b21cfdb16cf41818f1685a80370e, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4290641802
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 02_Melody_Flute_03
+    id: 2
+    clip_fragment: {fileID: 8300000, guid: e3f773459870238468e5d58fa22765b4, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288936189
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 03_Melody_Flute_04
+    id: 3
+    clip_fragment: {fileID: 8300000, guid: 7bbac19d9eb8ede48acb0e46302a3299, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4288937406
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 04_Melody_Flute_05
+    id: 4
+    clip_fragment: {fileID: 8300000, guid: 3a73ace8c8c818d4d81ffaf760d8aa58, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4282777468
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 05_Melody_Flute_06
+    id: 5
+    clip_fragment: {fileID: 8300000, guid: 0e0889989ba631c4bbb5468c477ff60a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289134405
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 06_Melody_Flute_07
+    id: 6
+    clip_fragment: {fileID: 8300000, guid: 0e0889989ba631c4bbb5468c477ff60a, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4289134405
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 07_Melody_Flute_08
+    id: 7
+    clip_fragment: {fileID: 8300000, guid: 61f44802fe797eb4ba9b195aaa3e8164, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945861
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 08_Melody_Flute_09
+    id: 8
+    clip_fragment: {fileID: 8300000, guid: c078c347e243bbf4a8b7c4e7c06bf9c3, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945861
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 09_Melody_Flute_10
+    id: 9
+    clip_fragment: {fileID: 8300000, guid: 536644c0bbc6c0545a5ec0e52b3ee83b, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294919511
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 10_Melody_Flute_11
+    id: 10
+    clip_fragment: {fileID: 8300000, guid: b3aa43177c276344abed611ce80bf9fc, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4287035636
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 11_Melody_Flute_12
+    id: 11
+    clip_fragment: {fileID: 8300000, guid: d94caabb9ac4073408dd1c4a6e1f2f98, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4284140287
+    row_channel: 0
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: 24_Harmony_Ab_Slow
+    id: 24
+    clip_fragment: {fileID: 8300000, guid: 60ab05720f28fcd4291ab66af73a1c55, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294945353
+    row_channel: 1
+    isChord: 1
+    isSilence: 0
+    isBaseChord: 1
+    Sockets: 01000000010000000100000001000000
+  - tag: 27_Bass_Long_Ab
+    id: 27
+    clip_fragment: {fileID: 8300000, guid: f710785971bfb1f4ab77b91986f50103, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4294901764
+    row_channel: 2
+    isChord: 0
+    isSilence: 0
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000
+  - tag: Silence
+    id: 40
+    clip_fragment: {fileID: 8300000, guid: 8235bc1895c73ec47a16ff78a452f3a3, type: 3}
+    ColorFragment:
+      serializedVersion: 2
+      rgba: 4279894271
+    row_channel: 0
+    isChord: 0
+    isSilence: 1
+    isBaseChord: 0
+    Sockets: 01000000010000000100000001000000

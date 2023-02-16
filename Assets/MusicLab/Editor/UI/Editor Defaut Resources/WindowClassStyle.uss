@@ -1,0 +1,121 @@
+:root{
+	--orangeColor: #FF9359;
+	--blueColor: #7992A9;
+	--whiteColor: #EBF5EE;
+	--blackColor: #222222;
+
+	--defaultMargin: 10px;
+}
+.title{
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.imgTitle{
+	padding: 15px;
+}
+
+.subtitle{
+	-unity-font-style: bold;
+	-unity-text-align: middle-left;
+	font-size: 15px;
+}
+
+.background{
+	background-color: var(--blackColor);
+}
+
+.horizontal-container{
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.nextBtn{
+	background-color: var(--blueColor);
+	color: var(--blackColor);
+	font-size: 15px;
+
+
+	-unity-font-style: bold;
+	border-color: transparent;
+	
+	min-height: 20px;
+	margin: var(--defaultMargin);
+	padding: 3px;
+}
+
+.playBtn{
+	border-width: 0px;
+	background-color: var(--blackColor);
+	border-color:var(--whiteColor);
+	background-image: resource('Assets/MusicLab/Editor/Images/play.png');
+	-unity-background-scale-mode: scale-to-fit;
+	padding: 20px;
+}
+
+.playBtn:hover{
+	border-width: 0px;
+	background-color: var(--blackColor);
+	border-color:var(--whiteColor);
+	background-image: resource('Assets/MusicLab/Editor/Images/playHighlighted.png');
+	-unity-background-scale-mode: scale-to-fit;
+	padding: 20px;
+}
+
+.pauseBtn{
+	border-width: 0px;
+	background-color: var(--blackColor);
+	border-color:var(--whiteColor);
+	background-image: resource('Assets/MusicLab/Editor/Images/pause.png');
+	-unity-background-scale-mode: scale-to-fit;
+	padding: 20px;
+}
+
+.pauseBtn:hover{
+	border-width: 0px;
+	background-color: var(--blackColor);
+	border-color:var(--whiteColor);
+	background-image: resource('Assets/MusicLab/Editor/Images/pauseHightlighted.png');
+	-unity-background-scale-mode: scale-to-fit;
+	padding: 20px;
+}
+
+.prevBtn{
+	background-color: var(--blackColor);
+	border-color:var(--whiteColor);
+
+	color: var(--whiteColor);
+	font-size: 15px;
+	
+	min-height: 20px;
+	margin: var(--defaultMargin);
+	padding: 3px;
+
+}
+
+.nextBtn:hover{
+	color: var(--whiteColor);
+}
+.nextBtn:active{
+	border-color:var(--whiteColor);
+	border-width: 1px;
+}
+
+.prevBtn:hover{
+	color: var(--blueColor);
+}
+.prevBtn:active{
+	background-color: var(--whiteColor);
+	color: var(--blackColor);
+	border-width: 1px;
+}
+
+.info{
+	color: var(--whiteColor);
+	-unity-text-align: middle-center;
+	margin-top:20px;
+}
