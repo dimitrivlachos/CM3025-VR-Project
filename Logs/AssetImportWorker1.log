@@ -15,7 +15,7 @@ C:/Users/dimit/Dropbox/Documents/Unity/UoL/CM3025 VR Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60640
+61116
 Successfully changed project path to: C:/Users/dimit/Dropbox/Documents/Unity/UoL/CM3025 VR Project
 C:/Users/dimit/Dropbox/Documents/Unity/UoL/CM3025 VR Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/dimit/Dropbox/Documents/Unity/UoL/CM3025 VR Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 204.16 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.23 ms.
+Refreshing native plugins compatible for Editor in 185.68 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.04 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/dimit/Dropbox/Documents/Unity/UoL/CM3025 VR Project/Assets
@@ -58,59 +58,59 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
     Vendor:   NVIDIA
     VRAM:     6009 MB
-    Driver:   31.0.15.2849
+    Driver:   31.0.15.3118
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012816 seconds.
+Registered in 0.008962 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 205.77 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 206.18 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.183 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1063ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1184ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (782ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (509ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (551ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (94ms)
+				InitializePlatformSupportModulesInManaged (96ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (206ms)
+				RefreshPlugins (207ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.037117 seconds.
+Registered in 0.029684 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dimit\Dropbox\Documents\Unity\UoL\CM3025 VR Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\dimit\Dropbox\Documents\Unity\UoL\CM3025 VR Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 191.09 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 186.14 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\dimit\Dropbox\Documents\Unity\UoL\CM3025 VR Project\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.458 seconds
+- Completed reload, in  2.484 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2459ms)
-		BeginReloadAssembly (283ms)
+	ReloadAssembly (2485ms)
+		BeginReloadAssembly (355ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (136ms)
-		EndReloadAssembly (1982ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (184ms)
+		EndReloadAssembly (1937ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
+			SetupTypeCache (449ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (1144ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1146ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (191ms)
-				BeforeProcessingInitializeOnLoad (214ms)
-				ProcessInitializeOnLoadAttributes (544ms)
-				ProcessInitializeOnLoadMethodAttributes (156ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (186ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 5932 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (0.7 MB). Loaded Objects now: 6367.
-Memory consumption went from 240.6 MB to 239.9 MB.
-Total: 4.837900 ms (FindLiveObjects: 0.570700 ms CreateObjectMapping: 0.332400 ms MarkObjects: 3.549000 ms  DeleteObjects: 0.384300 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 5933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (449.0 KB). Loaded Objects now: 6370.
+Memory consumption went from 240.9 MB to 240.4 MB.
+Total: 11.850900 ms (FindLiveObjects: 1.320900 ms CreateObjectMapping: 0.782000 ms MarkObjects: 9.092400 ms  DeleteObjects: 0.654300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,6 +177,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40020.942368 seconds.
+  path: Assets/cooking wav 2448/cutlery 4.wav
+  artifactKey: Guid(d90de24d35eddf941ba2a4a5f10cc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooking wav 2448/cutlery 4.wav using Guid(d90de24d35eddf941ba2a4a5f10cc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c61c44867f5f9c47bbb7a2b137b44e3') in 0.616135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/cooking wav 2448/boiling water loop.wav
+  artifactKey: Guid(7c488fedcbc8ec84eb3830e3990db764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooking wav 2448/boiling water loop.wav using Guid(7c488fedcbc8ec84eb3830e3990db764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701b230b5aa5d949ed4014c556b775b4') in 0.033795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/cooking wav 2448/chopping 2.wav
+  artifactKey: Guid(14a1dffbddda9504daaf08005f6e82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooking wav 2448/chopping 2.wav using Guid(14a1dffbddda9504daaf08005f6e82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5b0e6f4b97f054fae36b21e10efc45') in 0.036153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/cooking wav 2448/water pouring 1.wav
+  artifactKey: Guid(d8a6b85e15bad024a95a45ac8d22ad5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooking wav 2448/water pouring 1.wav using Guid(d8a6b85e15bad024a95a45ac8d22ad5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d56aeeeffadc5707624784d574ff4d') in 0.038436 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
